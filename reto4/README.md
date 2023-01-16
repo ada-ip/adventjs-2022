@@ -37,8 +37,7 @@ const boxes = [
   { l: 1, w: 1, h: 1 },  
   { l: 3, w: 3, h: 3 },  
   { l: 2, w: 2, h: 2 }  
-]
-
+]  
 fitsInOneBox(boxes) // true
 
 En el ejemplo anterior, la primer caja cabe en la tercera, y la tercera en la segunda. Por lo tanto, es posible empaquetar todas las cajas en una sola.
