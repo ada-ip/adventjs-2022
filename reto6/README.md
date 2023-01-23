@@ -18,14 +18,14 @@ Como ves el cubo tiene tres caras visualmente. Los símbolos que se usan para co
 
 Otros ejemplos de cubos:
 
-const cubeOfOne = createCube(1)  
+<pre>const cubeOfOne = createCube(1)  
 /\_\  
-\/_/
-const cubeOfTwo = createCube(2)  
-&nbps;/\_\_\  
+\/_/</pre>
+<pre>const cubeOfTwo = createCube(2)  
+ /\_\_\  
 /\/\_\_\  
 \/\/_/_/  
-&nbps;\/_/_/
+ \/_/_/</pre>
 
 A tener en cuenta:
 
