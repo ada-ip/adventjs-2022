@@ -7,13 +7,13 @@ El problema es que tienen que programar la máquina y no saben cómo hacerlo. No
 Para crear los cubos se le pasa un número con el tamaño deseado al programa y este devuelve un string con el diseño de ese tamaño. 
 Por ejemplo, si le pasamos un 3, el programa debe devolver un cubo de 3x3x3:
 
-const cube = createCube(3)  
-&nbps;&nbps;/\_\_\_\  
-&nbps;/\/\_\_\_\  
+<pre>const cube = createCube(3)  
+  /\_\_\_\  
+ /\/\_\_\_\  
 /\/\/\_\_\_\  
 \/\/\/_/_/_/  
-&nbps;\/\/_/_/_/  
-&nbps;&nbps;\/_/_/_/  
+ \/\/_/_/_/  
+  \/_/_/_/  </pre>
 Como ves el cubo tiene tres caras visualmente. Los símbolos que se usan para construir las caras del cubo son: /, \, _ y (espacio en blanco).
 
 Otros ejemplos de cubos:
